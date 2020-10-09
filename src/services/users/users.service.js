@@ -14,12 +14,17 @@ userService.getUsers = () => {
     });
 };
 
-userService.postUser = (username) => {
+userService.postUser = (user) => {
     return axios({
         method: "POST",
         url: AT_SSO_SERVICE_URI + `/v1/user`,
         data: {
-            name: username
+            name: user.name,
+            firstName: user.firstName,
+            lastName: user.lastName,
+            email: user.email,
+            password: user.password,
+            status: user.status
         },
     }).catch(function (error) {
         console.log('Error: ' + error.message);

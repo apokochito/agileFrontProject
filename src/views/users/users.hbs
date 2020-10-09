@@ -3,15 +3,16 @@
 </h1>
 
 {{#each users}}
-
-<h3>
-    {{name}}
-</h3>
-<ul>
-    <li>firstName {{firstName}}</li>
-    <li>lastName {{lastName}} </li>
-    <li>email {{email}}</li>
-    <li>password {{password}}</li>
-    <li>status {{status}}</li>
-</ul>
+<div style="padding-left: 5%;">
+    <h3>
+        {{name}}
+    </h3>
+    <ul>
+        <li>Firstname: {{firstName}}</li>
+        <li>Lastname: {{lastName}} </li>
+        <li>Email: {{email}}</li>
+        <li>Password: {{password}}</li>
+        <li>Status: {{status}}</li>
+    </ul>
+</div>
 {{/each}}

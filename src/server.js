@@ -29,4 +29,7 @@ app.use(require("./routes/users/users.routes"));
 // Static Files
 app.use(express.static(path.join(__dirname, 'public'))); // Any browser will access easily to them
 
+//304 HTTP error response
+app.disable('etag');
+
 module.exports = app;
