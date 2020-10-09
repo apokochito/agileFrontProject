@@ -1,0 +1,29 @@
+{
+  "name": "agilefrontproject",
+  "version": "1.0.0",
+  "description": "FrontEnd side for agile projects management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apokochito/agileFrontProyect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apokochito/agileFrontProyect/issues"
+  },
+  "homepage": "https://github.com/apokochito/agileFrontProyect#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "npm-check-updates": "^9.0.4"
+  }
+}
